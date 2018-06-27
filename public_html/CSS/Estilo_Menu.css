@@ -1,24 +1,31 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 50;
 }
 
 header{
     width: 100%;
-    background: #f2f2f2;
     box-shadow: 1px 1px 5px #000 ;
-    height:50px;
+    height:70px;
+    background: rgba(214,233,250,1);
+    background: -moz-linear-gradient(left, rgba(214,233,250,1) 0%, rgba(163,201,244,1) 74%, rgba(150,193,243,1) 92%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,233,250,1)), color-stop(74%, rgba(163,201,244,1)), color-stop(92%, rgba(150,193,243,1)));
+    background: -webkit-linear-gradient(left, rgba(214,233,250,1) 0%, rgba(163,201,244,1) 74%, rgba(150,193,243,1) 92%);
+    background: -o-linear-gradient(left, rgba(214,233,250,1) 0%, rgba(163,201,244,1) 74%, rgba(150,193,243,1) 92%);
+    background: -ms-linear-gradient(left, rgba(214,233,250,1) 0%, rgba(163,201,244,1) 74%, rgba(150,193,243,1) 92%);
+    background: linear-gradient(to right, rgba(214,233,250,1) 0%, rgba(163,201,244,1) 74%, rgba(150,193,243,1) 92%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6e9fa', endColorstr='#96c1f3', GradientType=1 );
 }
 #Menu{
     width:450px ;
-    padding-top: 10px;
+    padding-top: 5px;
     margin: auto;
 }
 #Menu ul a{
-    color: #6e6e6e;
+    color: #5833FF;
     text-decoration: none;
     font:bold 16px Verdana;
     padding: 12px 20px 12px;
     background: #fff;
-    border-bottom: 9px solid #6e6e6e;    
+    border-bottom: 9px solid #40ACF5;    
 }
