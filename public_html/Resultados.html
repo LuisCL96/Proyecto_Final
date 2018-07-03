@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.-->
+<html>
+    <head>
+        <title>Labs Nuñez/Resultados</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="CSS/login.css" rel="stylesheet"/>
+        <link type="text/css" href="CSS/Estilo_Menu.css" rel="stylesheet"/>
+        
+<script language="Javascript">
+	function mostrar() {
+		var ocultar, mostrar;
+		ocultar = document.getElementById("unaTabla");
+		if(ocultar.style.visibility == "hidden") {
+			ocultar.style.visibility = "visible";
+			mostrar = document.getElementById("mostrar").childNodes[0];
+			mostrar.data = button.bt1;
+		}
+		else {
+			ocultar.style.visibility = "hidden";
+			mostrar = document.getElementById("mostrar").childNodes[0];
+			mostrar.data = button.bt1;
+		}
+
+	}
+</script>
+
+
+    </head>
+    <body style="background-color:white;" text="#008F9F">    
+<header>
+        <header>
+            <div>
+                <section id="Menu">
+                    <ul>
+                        <a href="#">INICIO</a>
+                        <a href="#">RESULTADOS</a>
+                        <a href="Contactanos.html">CONTACTO</a>
+                    </ul>
+                </section>
+            </div>   
+        </header>
+    <br>
+      <br>
+        <br>
+</header>
+        <div id="n1">
+            <marquee><FONT FACE="Times New Roman" SIZE= "5" COLOR=#e5f6f4 >Consulta tus exámenes</FONT></marquee>
+	<div>
+            <center><b><FONT FACE="Times New Roman" SIZE= "5" COLOR=#e5f6f4 ><h1>Reporte en línea</h1></FONT></b></center>
+	        <br>
+        <br>
+        </div>
+	</div>
+        
+        <div>
+        <center><p style="color: #4682B4; font-size:30px;"><b>Página de inicio de sesión</b></p> <br></center>
+        <p style="text-align:justify;"> Aqui podrá iniciar sesión para visualizar sus exámenes</p>
+                        
+            <figure>
+                <center><img src="login.jpg" width="300" height="250"></center>
+            </figure>
+        </div>
+        <br>
+        <br>
+        
+<form class="contact_form" action="#" id="contact_form" runat="server">
+
+<div id="ocultar">
+<ul>
+<li>
+	<label for="name">Id Usuario:</label>
+	<input type="text" placeholder="Id Usuario" required />
+        	<span class="form_hint">Ingrese la Id facilitada por el laboratorio</span>
+		<span class="required_notification">* Datos requeridos</span>
+</li>
+<li>
+	<label for="email">Cotraseña:</label>
+	<input type="contra" name="contra" placeholder="Ingrese contraseña" required />
+            <span class="form_hint">Ingrese su contraseña</span>
+            <span class="required_notification">* Datos requeridos</span>
+		
+</li>
+<li>
+<a id="mostrar" href="javascript:mostrar();"><button id="bt1" class="submit" type="submit">Iniciar Sesión/Usuario</button></a>
+</li>  
+
+</ul>
+<br>
+<br><br><br>
+</div>
+</form>
+        
+<form class="contact_form" action="#" id="contact_form" runat="server">
+
+
+<div id="ocultar">
+<ul>
+<li>
+	<label for="name">Id Usuario:</label>
+	<input type="text" placeholder="Id Usuario" required />
+        	<span class="form_hint">Ingrese la Id facilitada por el laboratorio</span>
+		<span class="required_notification">* Datos requeridos</span>
+</li>
+
+<li>
+	<label for="email">Cotraseña:</label>
+	<input type="contra" name="contra" placeholder="Ingrese  Contraseña" required />
+	<span class="form_hint">Ingrese su contraseña</span>
+	<span class="required_notification">* Datos requeridos</span>
+		
+</li>
+<li>
+<a id="mostrar" href="javascript:mostrar();"><button id="bt1" class="submit" type="submit">Iniciar Sesión/Convenio</button></a>
+</li>  
+</ul>
+</div>
+<br>
+<br>
+
+</form>
+        
+    
+      
+        
+        <footer id="piep">
+              
+            <p>Laboratorios Nuñez 2018</p>
+            <a href="index.html"><button id="Pagprincipal"><b>Página Principal</b></button></a>
+
+         </footer>   
+  
+    </body>
+</html>
